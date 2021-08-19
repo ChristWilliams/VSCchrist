@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: noto sans;
+    src: url(NotoSans-Bold.ttf);
+}
+header{
+    margin: 40px 0;
+}
+.headh1{
+    text-align:center;color:#04AA6D;font-size:32px;
+}
+.headh5{
+    text-align:center;font-size:18px;
+}
+body{
+    font-family:'noto sans';
+}
+.sec1{
+    padding:80px 0px;width:100%;background-color:#282A35;color:white; margin: 16px 0;
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.belajar-html{
+    float:left;width:50%;text-align:center;
+}
+.html-string{
+    font-size:100px;
+}
+.exp-html{
+    font-size:20px;margin-bottom:30px;
+}
+.link-learn-html{
+    border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:#04AA6D;color:white;font-size:18px;margin:auto; display:block;width:200px;border-radius:25px;font-weight:700;margin-bottom: 20px;
+}
+.link-reference-html{
+    border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:white;color:black;font-size:18px;margin:auto;display:block;width:200px;border-radius:25px;font-weight:700;
+}
+.image-html{
+    float:left;width:50%;text-align:center;
+}
+.html-image{
+    width:450px;
+}
+.sec2{
+    padding:80px 0px;width:100%;background-color:#D9EEE1;color:black; margin: 16px 0;
+
+    content: "";
+    display: table;
+    clear: both;
+}
+.image-css{
+    float:left;width:50%;text-align:center;
+}
+.css-image{
+    width:450px;
+}
+.belajar-css{
+    float:left;width:50%;text-align:center;
+}
+.css-string{
+    font-size:100px;
+}
+.exp-css{
+    font-size:20px;margin-bottom:30px;
+}
+.link-learn-css{
+    border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:#04AA6D;color:white;font-size:18px;margin:auto;display:block;width:200px;border-radius:25px;font-weight:700;margin-bottom: 20px;
+}
+.link-reference-css{
+    border:none;padding:8px 16px;overflow:hidden;text-decoration:none;text-align:center;cursor:pointer;white-space:nowrap;background-color:black;color:white;font-size:18px;margin:auto;display:block;width:200px;border-radius:25px;font-weight:700;
+}
+footer{
+    text-align: center;background-color:#282A35;color:white;padding: 40px 0;
+}
