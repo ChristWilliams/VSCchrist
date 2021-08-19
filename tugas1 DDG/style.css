@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: noto sans;
-    src: url(NotoSans-Bold.ttf);
+    src: url(css/NotoSans-Bold.ttf);
 }
 header{
     margin: 40px 0;
