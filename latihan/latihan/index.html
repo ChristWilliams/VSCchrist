@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan ddg</title>
+</head>
+<body>
+    <input type="button" id="hider" onclick="alert_hello()" value="click to hide text">
+
+    <div id="text">text</div>
+
+    <script>
+        const hider = document.getElementById('hider')
+        const text = document.getElementById('text')
+
+        function alert_hello() {
+            alert('hello');
+        }
+
+        function hide_button() {
+            if (hider.style.display === "none") {
+                hider.style.display = "block";}
+            else {
+                hider.style.display = "none";
+            }
+        }
+        
+
+        function hide_text() {
+            document.getElementById('text').innerHTML = '';
+        }
+
+        function nama() {
+
+            document.getElementById('text').innerHTML = '';
+
+            const nama = document.createTextNode('christ williams poulxio')
+
+            text.appendChild(nama)
+
+
+        }
+        
+        function h2(){
+            const h2baru = document.createElement('h2')
+            const isi_h2 = document.createTextNode('SAYA BISA')
+
+            h2baru.appendChild(isi_h2)
+
+            document.body.appendChild(h2baru)
+        }
+
+    </script>
+</body>
+</html>
